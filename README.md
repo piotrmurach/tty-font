@@ -55,6 +55,7 @@ The list of the available fonts:
 
 * [doom](fonts/doom.md)
 * [standard](fonts/standard.md)
+* [starwars](fonts/starwars.md)
 
 ## Development
 
