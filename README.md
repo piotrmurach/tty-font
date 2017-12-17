@@ -1,4 +1,19 @@
-# TTY::Font
+# TTY::Font [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
+
+[![Gem Version](https://badge.fury.io/rb/tty-font.svg)][gem]
+[![Build Status](https://secure.travis-ci.org/piotrmurach/tty-font.svg?branch=master)][travis]
+[![Build status](https://ci.appveyor.com/api/projects/status/cj4owy2vlty2q1ko?svg=true)][appveyor]
+[![Maintainability](https://api.codeclimate.com/v1/badges/b0d6263bd34e1c0cae74/maintainability)][codeclimate]
+[![Coverage Status](https://coveralls.io/repos/github/piotrmurach/tty-font/badge.svg)][coverage]
+[![Inline docs](http://inch-ci.org/github/piotrmurach/tty-font.svg?branch=master)][inchpages]
+
+[gitter]: https://gitter.im/piotrmurach/tty
+[gem]: http://badge.fury.io/rb/tty-font
+[travis]: http://travis-ci.org/piotrmurach/tty-font
+[appveyor]: https://ci.appveyor.com/project/piotrmurach/tty-font
+[codeclimate]: https://codeclimate.com/github/piotrmurach/tty-font/maintainability
+[coverage]: https://coveralls.io/github/piotrmurach/tty-font
+[inchpages]: http://inch-ci.org/github/piotrmurach/tty-font
 
 > Write text in large stylized characters using a variety of terminal friendly fonts.
 
@@ -38,8 +53,8 @@ puts font.write("DOOM")
 
 The list of the available fonts:
 
-* [doom](doom.md)
-* [standard](standard.md)
+* [doom](fonts/doom.md)
+* [standard](fonts/standard.md)
 
 ## Development
 
