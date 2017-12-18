@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = TTY::Font::VERSION
   spec.authors       = ["Piotr Murach"]
   spec.email         = []
-  spec.summary       = %q{Fonts in your terminal}
+  spec.summary       = %q{Terminal fonts}
   spec.description   = %q{Write text in large stylized characters using a variety of terminal friendly fonts.}
   spec.homepage      = 'https://github.com/piotrmurach/tty-spinner'
   spec.license       = "MIT"
