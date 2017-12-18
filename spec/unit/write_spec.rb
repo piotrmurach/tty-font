@@ -29,7 +29,7 @@ RSpec.describe TTY::Font, '#write' do
 
   it "writes text with space in between letters" do
     font = TTY::Font.new(:doom)
-    expect(font.write('ABC', space: 2)).to eq([
+    expect(font.write('ABC', letter_spacing: 2)).to eq([
      "  ___     ______    _____ ",
      " / _ \\    | ___ \\  /  __ \\",
      "/ /_\\ \\   | |_/ /  | /  \\/",

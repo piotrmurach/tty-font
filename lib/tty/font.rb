@@ -12,7 +12,7 @@ module TTY
     def initialize(font = :standard, **options)
       @font  = font
       @data  = load_font(FONTS_PATH.join("#{font}.yml"))
-      @space = options.fetch(:space) { 0 }
+      @space = options.fetch(:letter_spacing) { 0 }
     end
 
     # Write text in a font format
@@ -24,7 +24,7 @@ module TTY
     def write(text, **options)
       output = []
       chars = text.chars
-      space = options.fetch(:space) { @space }
+      space = options.fetch(:letter_spacing) { @space }
       indexes = words_boundary_indexes(text)
 
       @data['char_height'].times do |line|
@@ -40,7 +40,7 @@ module TTY
     def inspect
       vars = [
         "name=#{@font.inspect}",
-        "space=#{@space}",
+        "letter_spacing=#{@space}",
         "char_height=#{@data['char_height']}"
       ]
       '#<%s:0x%x %s>' % [self.class, (object_id << 1), vars.join(', ')]
