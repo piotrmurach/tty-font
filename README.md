@@ -59,6 +59,19 @@ puts font.write("DOOM")
 #
 ```
 
+To adjust the spacing between all the letters in a piece of text use `:letter_spacing` option:
+
+```ruby
+puts font.write("DOOM", letter_spacing: 4)
+# =>
+# ______      _____      _____     ___  ___
+# |  _  \    |  _  |    |  _  |    |  \/  |
+# | | | |    | | | |    | | | |    | .  . |
+# | | | |    | | | |    | | | |    | |\/| |
+# | |/ /     \ \_/ /    \ \_/ /    | |  | |
+# |___/       \___/      \___/     \_|  |_/
+```
+
 If you wish to print text in color use [pastel](https://github.com/piotrmurach/pastel):
 
 ```ruby
