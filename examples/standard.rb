@@ -6,9 +6,10 @@ font = TTY::Font.new(:standard)
 
 puts pastel.green(font.write('standard'))
 
-puts font.write("ABCDEFGHIJKLMNOPRSTUVWXYZ")
+puts font.write("ABCDEFGHIJKLMN")
+puts font.write("OPQRSTUVWXYZ")
 
-puts font.write("abcdefghijklmnoprstuvwxyz")
+puts font.write("abcdefghijklmnopqrstuvwxyz")
 
 puts font.write("0123456789")
 
