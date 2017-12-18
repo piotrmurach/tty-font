@@ -39,9 +39,15 @@ Or install it yourself as:
 
 ## Usage
 
+Initialize font out of [available](#fonts) fonts:
+
 ```ruby
 font = TTY::Font.new(:doom)
+```
 
+and then print text out to console:
+
+```ruby
 puts font.write("DOOM")
 # =>
 # ______  _____  _____ ___  ___
@@ -53,9 +59,16 @@ puts font.write("DOOM")
 #
 ```
 
+If you wish to print text in color use [pastel](https://github.com/piotrmurach/pastel):
+
+```
+pastel = Pastel.new
+puts pastel.yellow(font.write("DOOM"))
+```
+
 ## Fonts
 
-The list of the available fonts:
+The list of the available fonts: (select link to see font face)
 
 * [doom](fonts/doom.md)
 * [standard](fonts/standard.md)
