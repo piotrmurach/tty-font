@@ -56,6 +56,7 @@ The list of the available fonts:
 * [doom](fonts/doom.md)
 * [standard](fonts/standard.md)
 * [starwars](fonts/starwars.md)
+* [straight](fonts/straight.md)
 
 ## Development
 
@@ -73,7 +74,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Tty::Font project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/tty-font/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the TTY::Font project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/tty-font/blob/master/CODE_OF_CONDUCT.md).
 
 ## Copyright
 
