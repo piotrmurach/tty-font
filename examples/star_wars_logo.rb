@@ -34,7 +34,7 @@ def paint_logo
 
   lines = @font.write('STAR').split("\n")
   print @pastel.red(lines_at(lines, center_x, center_y - 5).join)
-  lines = @reg_font.write("THE    LAST    JEDI", space: 1).split("\n")
+  lines = @reg_font.write("THE    LAST    JEDI", letter_spacing: 1).split("\n")
   print lines_at(lines, center_x, center_y).join
   lines = @font.write('WARS').split("\n")
   print @pastel.red(lines_at(lines, center_x, center_y + 4).join)
