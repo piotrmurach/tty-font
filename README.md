@@ -70,6 +70,7 @@ puts pastel.yellow(font.write("DOOM"))
 
 The list of the available fonts: (select link to see font face)
 
+* [3d](fonts/3d.md)
 * [doom](fonts/doom.md)
 * [standard](fonts/standard.md)
 * [starwars](fonts/starwars.md)
