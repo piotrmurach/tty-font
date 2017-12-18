@@ -17,6 +17,10 @@
 
 > Write text in large stylized characters using a variety of terminal friendly fonts.
 
+![screenshot](https://github.com/piotrmurach/tty-font/raw/master/assets/starwars_logo.png)
+
+**TTY::Font** provides independent terminal font rendering component for [TTY](https://github.com/piotrmurach/tty) toolkit.
+
 ## Installation
 
 Add this line to your application's Gemfile:
