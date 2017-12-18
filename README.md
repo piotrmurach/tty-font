@@ -61,7 +61,7 @@ puts font.write("DOOM")
 
 If you wish to print text in color use [pastel](https://github.com/piotrmurach/pastel):
 
-```
+```ruby
 pastel = Pastel.new
 puts pastel.yellow(font.write("DOOM"))
 ```
@@ -83,7 +83,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/tty-font. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/piotrmurach/tty-font. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
