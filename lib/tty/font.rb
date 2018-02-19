@@ -7,7 +7,7 @@ require_relative 'font/version'
 
 module TTY
   class Font
-    FONTS_PATH = Pathname.new(File.join(__dir__, 'font'))
+    FONTS_PATH = Pathname.new(::File.join(__dir__, 'font'))
 
     def initialize(font = :standard, **options)
       @font  = font
