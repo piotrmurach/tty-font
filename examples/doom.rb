@@ -1,5 +1,5 @@
-require 'tty-font'
 require 'pastel'
+require_relative '../lib/tty-font'
 
 pastel = Pastel.new
 font = TTY::Font.new(:doom)

@@ -1,7 +1,8 @@
 require 'pastel'
-require 'tty-font'
 require 'tty-cursor'
 require 'tty-screen'
+
+require_relative '../lib/tty-font'
 
 @pastel   = Pastel.new
 @cursor   = TTY::Cursor
