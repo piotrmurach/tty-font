@@ -109,4 +109,4 @@ Everyone interacting in the TTY::Font project’s codebases, issue trackers, cha
 
 ## Copyright
 
-Copyright (c) 2017 Piotr Murach. See LICENSE for further details.
+Copyright (c) 2017-2018 Piotr Murach. See LICENSE for further details.
