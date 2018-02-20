@@ -49,18 +49,17 @@ module TTY
 
     private
 
-    # Add new line to output
+    # Create a new line for the output
+    #
+    # @return [String]
     #
     # @api private
-    def add_line(chars, indexes, line, space)
-      chars.each_with_index.reduce([]) do |acc, (char, indx)|
-        if @data['chars'].key?(char)
-          acc << @data['chars'][char][line]
-          acc << ' ' * space if space > 0 && !indexes.include?(indx)
-        else
+    def create_line(chars, indexes, line_no, space)
+      chars.each_with_index.map do |char, i|
+        unless @data['chars'].key?(char)
           raise ArgumentError, "Font #{@font} doesn't support '#{char}' character"
         end
-        acc
+        @data['chars'][char][line_no] + (!indexes.include?(i) ? ' ' : '') * space
       end.join
     end
 
