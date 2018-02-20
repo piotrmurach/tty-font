@@ -1,7 +1,19 @@
 # Change log
 
+## [v0.2.0] - 2018-02-20
+
+### Added
+* Add Result for processing transformed output
+
+### Changed
+* Change #add_line to #create_line and refactor
+
+### Fixed
+* Fix File to use global namespace
+
 ## [v0.1.0] - 2017-12-18
 
 * Initial implementation and release
 
+[v0.2.0]: https://github.com/piotrmurach/tty-font/compare/v0.1.0...v0.2.0
 [v0.1.0]: https://github.com/piotrmurach/tty-font/compare/v0.1.0
