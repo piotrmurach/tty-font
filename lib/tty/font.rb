@@ -3,6 +3,7 @@
 require 'pathname'
 require 'yaml'
 
+require_relative 'font/result'
 require_relative 'font/version'
 
 module TTY
@@ -22,16 +23,16 @@ module TTY
     #
     # @api public
     def write(text, **options)
-      output = []
+      result = Result.new
       chars = text.chars
       space = options.fetch(:letter_spacing) { @space }
       indexes = words_boundary_indexes(text)
 
-      @data['char_height'].times do |line|
-        output << add_line(chars, indexes, line, space)
+      @data['char_height'].times do |line_no|
+        result << create_line(chars, indexes, line_no, space)
       end
 
-      output.join("\n")
+      result.to_s
     end
 
     # Inspect font attributes
