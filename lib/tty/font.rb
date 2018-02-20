@@ -8,7 +8,7 @@ require_relative 'font/version'
 
 module TTY
   class Font
-    FONTS_PATH = Pathname.new(::File.join(__dir__, 'font'))
+    FONTS_PATH = ::Pathname.new(::File.join(__dir__, 'font'))
 
     def initialize(font = :standard, **options)
       @font  = font
@@ -80,7 +80,7 @@ module TTY
     #
     # @api private
     def load_font(font_path)
-      YAML.load_file(font_path)
+      ::YAML.load_file(font_path)
     rescue Errno::ENOENT
       raise ArgumentError, "Font '#{File.basename(font_path)}' not found"
     end
