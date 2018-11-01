@@ -1,5 +1,11 @@
 # Change log
 
+## [v0.3.0] - 2018-11-01
+
+### Changed
+* Change gemspec to require Ruby >= 2.0.0
+* Change gemspec to load files without calling git
+
 ## [v0.2.0] - 2018-02-20
 
 ### Added
@@ -15,5 +21,6 @@
 
 * Initial implementation and release
 
+[v0.3.0]: https://github.com/piotrmurach/tty-font/compare/v0.2.0...v0.3.0
 [v0.2.0]: https://github.com/piotrmurach/tty-font/compare/v0.1.0...v0.2.0
 [v0.1.0]: https://github.com/piotrmurach/tty-font/compare/v0.1.0
