@@ -9,9 +9,18 @@ Gem::Specification.new do |spec|
   spec.email         = ["me@piotrmurach.com"]
   spec.summary       = %q{Terminal fonts}
   spec.description   = %q{Write text in large stylized characters using a variety of terminal friendly fonts.}
-  spec.homepage      = 'https://github.com/piotrmurach/tty-spinner'
+  spec.homepage      = "https://piotrmurach.github.io/tty"
   spec.license       = "MIT"
-
+  if spec.respond_to?(:metadata=)
+    spec.metadata = {
+      "allowed_push_host" => "https://rubygems.org",
+      "bug_tracker_uri"   => "https://github.com/piotrmurach/tty-font/issues",
+      "changelog_uri"     => "https://github.com/piotrmurach/tty-font/blob/master/CHANGELOG.md",
+      "documentation_uri" => "https://www.rubydoc.info/gems/tty-font",
+      "homepage_uri"      => spec.homepage,
+      "source_code_uri"   => "https://github.com/piotrmurach/tty-font"
+    }
+  end
   spec.files         = Dir['{lib,spec,examples}/**/*.{rb,yml}']
   spec.files        += Dir['{bin,tasks}/*', 'tty-font.gemspec']
   spec.files        += Dir['{fonts/*.md}', 'README.md', 'CHANGELOG.md']
