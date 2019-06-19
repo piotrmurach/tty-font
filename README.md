@@ -88,6 +88,7 @@ puts pastel.yellow(font.write("DOOM"))
 The list of the available fonts: (select link to see font face)
 
 * [3d](fonts/3d.md)
+* [block](fonts/block.md)
 * [doom](fonts/doom.md)
 * [standard](fonts/standard.md)
 * [starwars](fonts/starwars.md)
@@ -113,4 +114,4 @@ Everyone interacting in the TTY::Font project’s codebases, issue trackers, cha
 
 ## Copyright
 
-Copyright (c) 2017-2018 Piotr Murach. See LICENSE for further details.
+Copyright (c) 2017 Piotr Murach. See LICENSE for further details.
