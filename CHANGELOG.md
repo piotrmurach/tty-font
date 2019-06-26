@@ -4,6 +4,7 @@
 
 ### Added
 * Add block font
+* Add char_space option to font YAML file
 
 ### Changed
 * Change bundler and rake dev dependency version
