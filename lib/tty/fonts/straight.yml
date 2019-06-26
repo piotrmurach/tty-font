@@ -1,6 +1,7 @@
 name: straight
 author: "Bas Meijer (meijer@info.win.tue.nl)"
 char_height: 4
+char_space: 0
 max_line_length: 6
 chars:
   "!": [

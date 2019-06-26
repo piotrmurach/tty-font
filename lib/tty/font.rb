@@ -13,7 +13,7 @@ module TTY
     def initialize(font = :standard, **options)
       @font  = font
       @data  = load_font(FONTS_PATH.join("#{font}.yml"))
-      @space = options.fetch(:letter_spacing) { 0 }
+      @space = options.fetch(:letter_spacing) { @data['char_space'] }
     end
 
     # Write text in a font format

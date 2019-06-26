@@ -1,6 +1,7 @@
 name: standard
 author: "Glenn Chappell & Ian Chai"
 char_height: 6
+char_space: 0
 max_line_length: 11
 chars:
   "!": [

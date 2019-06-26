@@ -1,6 +1,7 @@
 name: 3d
 author: "Larry Gelberg (larryg@avs.com)"
 char_height: 9
+char_space: 0
 max_line_length: 15
 chars:
   "!": [

@@ -1,6 +1,7 @@
 name: block
 author: "Glenn Chappell"
 char_height: 8
+char_space: 1
 max_line_length: 27
 chars:
   "!": [

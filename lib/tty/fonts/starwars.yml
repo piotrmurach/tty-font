@@ -1,6 +1,7 @@
 name: starwars
 author: "Ryan Youck (youck@cs.uregina.ca)"
 char_height: 7
+char_space: 0
 max_line_length: 13
 chars:
   "!": [

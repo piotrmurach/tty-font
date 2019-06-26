@@ -1,6 +1,7 @@
 name: doom
 author: "Frans P. de Vries <fpv@xymph.iaf.nl>"
 char_height: 8
+char_space: 0
 max_line_length: 14
 chars:
   "!": [
