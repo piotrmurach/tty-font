@@ -1,5 +1,13 @@
 # Change log
 
+## [v0.4.0] - 2019-06-26
+
+### Added
+* Add block font
+
+### Changed
+* Change bundler and rake dev dependency version
+
 ## [v0.3.0] - 2018-11-01
 
 ### Changed
@@ -21,6 +29,7 @@
 
 * Initial implementation and release
 
+[v0.4.0]: https://github.com/piotrmurach/tty-font/compare/v0.3.0...v0.4.0
 [v0.3.0]: https://github.com/piotrmurach/tty-font/compare/v0.2.0...v0.3.0
 [v0.2.0]: https://github.com/piotrmurach/tty-font/compare/v0.1.0...v0.2.0
 [v0.1.0]: https://github.com/piotrmurach/tty-font/compare/v0.1.0
