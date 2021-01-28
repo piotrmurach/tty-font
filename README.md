@@ -1,11 +1,11 @@
 <div align="center">
-  <a href="https://piotrmurach.github.io/tty" target="_blank"><img width="130" src="https://cdn.rawgit.com/piotrmurach/tty/master/images/tty.png" alt="tty logo" /></a>
+  <a href="https://ttytoolkit.org"><img width="130" src="https://github.com/piotrmurach/tty/raw/master/images/tty.png" alt="TTY Toolkit logo"/></a>
 </div>
 
 # TTY::Font [![Gitter](https://badges.gitter.im/Join%20Chat.svg)][gitter]
 
 [![Gem Version](https://badge.fury.io/rb/tty-font.svg)][gem]
-[![Build Status](https://secure.travis-ci.org/piotrmurach/tty-font.svg?branch=master)][travis]
+[![Actions CI](https://github.com/piotrmurach/tty-font/workflows/CI/badge.svg?branch=master)][gh_actions_ci]
 [![Build status](https://ci.appveyor.com/api/projects/status/cj4owy2vlty2q1ko?svg=true)][appveyor]
 [![Maintainability](https://api.codeclimate.com/v1/badges/b0d6263bd34e1c0cae74/maintainability)][codeclimate]
 [![Coverage Status](https://coveralls.io/repos/github/piotrmurach/tty-font/badge.svg)][coverage]
@@ -13,7 +13,7 @@
 
 [gitter]: https://gitter.im/piotrmurach/tty
 [gem]: http://badge.fury.io/rb/tty-font
-[travis]: http://travis-ci.org/piotrmurach/tty-font
+[gh_actions_ci]: https://github.com/piotrmurach/tty-font/actions?query=workflow%3ACI
 [appveyor]: https://ci.appveyor.com/project/piotrmurach/tty-font
 [codeclimate]: https://codeclimate.com/github/piotrmurach/tty-font/maintainability
 [coverage]: https://coveralls.io/github/piotrmurach/tty-font
